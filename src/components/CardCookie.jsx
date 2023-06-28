@@ -17,7 +17,7 @@ const [indexImg,setIndexImg ] = useState(1)
         }
         
 }
-document.body.style =`background-image: url(/cookie-${indexImg}.jpg)`
+document.body.style =`background-image: url(/cookie-${indexImg}.jpg);`
 
     let dates = [...data, index]
     return(
