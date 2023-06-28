@@ -1,0 +1,78 @@
+*{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  padding: 4rem;
+  
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.cont-titulo{
+  width: 75%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  background-color: rgb(225, 225, 244);
+  border-radius: 36px;
+}
+.cont-titulo .titulo{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.fortuneBox{
+  border-radius: 0.8rem;
+  padding: 2rem;
+  
+  width: 30rem;
+  height: 20rem;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+.fortuneBox h3{
+  margin-top: 1rem;
+}
+.button-fortune{
+  height: 3rem;
+  width: 6rem;
+ margin-top: 50px;
+ background-color:rgb(225, 225, 244);
+ border: none;
+ border-radius: 10px;
+
+}
+
+@media (max-width: 767px){
+body{
+  padding: 0.5rem;
+}
+background-size{
+  max-width: 100%;
+}
+.fortuneBox{
+    width: 19rem;
+    height: 18rem;
+    margin: auto;
+    background-color: rgb(249, 242, 242);
+    
+  }
+  .fortuneBox h2{
+    font-size: 16px;
+  }
+  .cont-titulo{
+    width: 90%;
+    padding:3px;
+  }
+  .cont-titulo .titulo {
+    font-size: 24px;
+  }
+ 
+}
